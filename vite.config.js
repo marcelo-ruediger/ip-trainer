@@ -20,8 +20,8 @@ export default defineConfig({
                 background_color: "#242424",
                 display: "standalone",
                 orientation: "portrait-primary",
-                scope: "/ip_trainer/",
-                start_url: "/ip_trainer/",
+                scope: "/ip-trainer/",
+                start_url: "/ip-trainer/",
                 categories: ["education", "utilities"],
                 lang: "de",
                 dir: "ltr",
@@ -52,5 +52,5 @@ export default defineConfig({
             },
         }),
     ],
-    base: "/ip_trainer/",
+    base: "/ip-trainer/",
 });
